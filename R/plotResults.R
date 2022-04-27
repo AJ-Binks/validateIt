@@ -8,6 +8,8 @@
 #' @param n a vector of counts of trials
 #' @param taskname the name of the task for labeling, e.g., Word Intrusion, Optimal Label.
 #' 
+#' @import stats
+#' @import utils
 #' @export
 
 plotResults <- function(path, x, n, taskname, ...){
